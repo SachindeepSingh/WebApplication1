@@ -19,7 +19,7 @@
                
             </div>
         </div>
-        <hr size="3" color="Blue" />
+        <hr/>
          <div>
                <a href="Projects.aspx"> 
 							<img src="Assets/projects.png" alt="Projects"  width="200"/></a><a href=" target="blank">                <a href="Services.aspx"> 

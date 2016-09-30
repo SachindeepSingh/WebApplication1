@@ -39,9 +39,9 @@
  <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                          
+                            <li id="home" runat="server"><a href="Default.aspx"> Home</a></li>                          
                             <li id="services" runat="server"><a href="Services.aspx"> Services</a></li>
-                            <li id="about" runat="server"><a href="About.aspx"> <i class="fa fa-home" aria-hidden="true"></i> About me</a></li>
+                            <li id="about" runat="server"><a href="About.aspx">  About me</a></li>
                             <li id="contact" runat="server"><a href="Contact.aspx"> Contact Us</a></li>
                             <li id="projects" runat="server"><a href="Projects.aspx"> Projects</a></li>                          
                         </ul>
@@ -49,7 +49,7 @@
                     <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-fluid -->
-            </nav>
+            <%--</nav>--%>
         </header>
 
         <!-- Main Content -->
@@ -70,9 +70,15 @@
     </form>
 
     <!-- JavaScript Section -->
-    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
+    <script src="Scripts/_refernces.js"></script>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery-1.10.2-vsdoc.js"></script>
+    <script src="Scripts/modernizr.js"></script>
+    <script src="Scripts/respond.js"></script>
+    <script src="Scripts/respond.min.js"></script>
 </body>
 </html>
 
