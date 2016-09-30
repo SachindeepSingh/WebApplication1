@@ -1,0 +1,39 @@
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-6">
+                <h1>Contact Me</h1>
+                
+
+                 <div class="form-group">
+                    <label for="FirstNameTextBox">First Name</label>
+                    <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label for="LastNameTextBox">Last Name</label>
+                    <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label for="EmailTextBox">Email</label>
+                    <asp:TextBox TextMode="Email" CssClass="form-control" ID="EmailTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label for="ContactNumberTextBox">Contact Number</label>
+                    <asp:TextBox TextMode="Phone" CssClass="form-control" ID="ContactNumberTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+
+                                <p><a class="btn btn-primary btn-lg" href="#" role="button">Submit</a></p>
+                
+                <div>
+                    <br />
+                  <a href ="tel:+16477409907"><i class="fa fa-phone-square" aria-hidden="true"></i> telephone: 647-740-9907</a><br/>
+                    <a href ="mailto:"
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,13 @@
+﻿/* custom css goes here */
+
+
+body { 
+    padding-bottom: 70px; 
+    background-color:burlywood;
+    
+    }
+.navbar-fixed-bottom{color:maroon}
+hr{
+	color: gray;
+	 size="3"; 
+}
